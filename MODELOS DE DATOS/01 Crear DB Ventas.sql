@@ -41,7 +41,7 @@ CREATE TABLE Venta (
     CONSTRAINT FK_Venta_Cliente FOREIGN KEY (IdCliente) REFERENCES Cliente(IdCliente)
 );
 
--- 6. Crear la Tabla DetalleVenta
+-- 6. jjjCrear la Tabla DetalleVenta
 CREATE TABLE DetalleVenta (
     IdDetalleVenta INT PRIMARY KEY,
     IdVenta INT NOT NULL,
